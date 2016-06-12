@@ -18,5 +18,8 @@ the same kind of asynchronicity in how the application flow goes.
 So why not have a game loop and let the components/objects manage their states and behaviours
 just like in games? The aim is to get rid of spaghetti code and improve maintainability.
 
+This project has similar logic to my other project ThreeScenes.js which is a Three.js wrapper
+for easier development.
+
 Notice: This idea/project is just in its babysteps, so it might not be a good
 idea to bind any real life business logic to it..
