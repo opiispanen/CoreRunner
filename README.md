@@ -13,7 +13,7 @@ And all of these can work in unity having things like data-binding, ansyncronous
 
 I've always done some game development and there's a lot stuff that can be
 applied in other fields of software development. Javascript webapps have quite
-same kind of asynchronicity in how the application flow goes. So why not have
+the same kind of asynchronicity in how the application flow goes. So why not have
 a game loop and let the components/object manage their states and behaviours
 just like in games?
 
