@@ -23,3 +23,7 @@ for easier development.
 
 Notice: This idea/project is just in its babysteps, so it might not be a good
 idea to bind any real life business logic to it..
+
+# Demos
+
+1. [Basic dynamic view example](http://viixet.com/CoreRunner/examples/example1.html)
