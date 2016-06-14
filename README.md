@@ -27,4 +27,4 @@ idea to bind any real life business logic to it..
 # Demos
 
 1. [Basic dynamic view example](http://viixet.com/CoreRunner/examples/dynamic_view_example/example1.html)
-2. [WebGL example](http://viixet.com/CoreRunner/examples/dynamic_view_example/example1.html)
+2. [WebGL example](http://viixet.com/CoreRunner/examples/webgl_example/webglExample1.html)
