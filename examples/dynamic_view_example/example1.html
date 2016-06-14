@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CoreRunner Example 1</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="../../src/CoreRunner.js"></script>
+    <style>
+        label {
+            display: block;
+            margin: 10px 0;
+        }
+
+        .price {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Basic dynamic view example</h1>
+        <div class="row">
+            <div class="col-xs-6">
+                <div class="row">
+                    <div class="col-xs-12 inputs">
+                        <h3>Base</h3>
+                    </div>
+                    <div class="col-xs-12 extra">
+                        <h3>Extras</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="price-container">
+                            <h3>Price</h3>
+                            <p class="price"></p>
+                            <h3 class="per-month">Per month</h3>
+                            <p class="per-month pm-price"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h4>Controls</h4>
+                        <p><sub>Try stopping the update loop, make changes and put it
+                            back on.</sub></p>
+                        <button class="btn btn-success start">Start</button>
+                        <button class="btn btn-default stop">Stop</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="example1.js"></script>
+</html>
