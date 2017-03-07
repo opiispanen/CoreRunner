@@ -1,11 +1,12 @@
 /**
  * @author Otto Piispanen otto.piispanen@gmail.com
- * 
- * @param {Object} scope
- * @param {array} runnerCollection
- * @param {number} [frequency, optional variable]
  */
 class CoreRunner {
+    /**
+     * @param {object} scope 
+     * @param {array} runnerCollection 
+     * @param {number} [frequency, optional variable]
+     */
     constructor(scope, runnerCollection) {
         this.lastRun = 0;
         this.updateAllowed = true;
