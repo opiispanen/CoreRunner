@@ -30,8 +30,8 @@ const box = {
         $('body').append(template);
     },
     run: (scope, obj) => {
-        let template = obj.template,
-            bounding = template[0].getBoundingClientRect();
+        let template = obj.template.clone(),
+            bounding = obj.template[0].getBoundingClientRect();
 
         navigation(scope.box, bounding, 'directionRight', 5);
         navigation(scope.box, bounding, 'directionBottom', 10);
@@ -54,6 +54,9 @@ const box = {
             top: scope.box.top+'px',
             left: scope.box.left+'px'
         });
+
+        obj.template.replaceWith(template);
+        obj.template = template;
     }
 };
 
