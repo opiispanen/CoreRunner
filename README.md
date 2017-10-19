@@ -1,3 +1,6 @@
+# Project dead
+Yeah, I decided that this idea was stupid.
+
 # CoreRunner
 CoreRunner is not a library or a framework, more like a frame with a philosophy.
 
